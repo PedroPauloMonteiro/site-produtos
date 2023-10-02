@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roupas Masculinas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/landscape.css" media="screen and (orientation:landscape)">
+    <link rel="stylesheet" href="CSS/portrait.css" media="screen and (orientation:portrait)">
+</head>
+<body>
+    <header>
+        <h1>Outside Store</h1>
+    </header>
+    <main>
+        <div class="card">
+           <img src="Imagens/shirt-black.jpg" alt="T-Shirt color Black" class="img-card" id="shirt">
+            <h2 class="product-tittle">Tech T-Shirt - 100% Algodão </h2>
+            <h2>R$ 120,40</h2>
+            <p>Selecione a cor:</p>
+            <div id="cores">
+                <div class="color" id="black" onclick="blackShirt()"></div>
+                <div class="color" id="white" onclick="whiteShirt()"></div>
+                <div class="color" id="gray" onclick="grayShirt()"></div>
+            </div>
+            <button id="botao">ADICIONAR AO CARRINHO</button>
+            <a href="#">CLIQUE AQUI PARA VER MAIS DETALHES</a>
+        </div>
+
+        <div class="card">
+            <img src="Imagens/regata-black.png" alt="Tank color Black" class="img-card" id="tank">
+             <h2 class="product-tittle">Tank Tops - 100% Algodão </h2>
+             <h2>R$ 90,40</h2>
+             <p>Selecione a cor:</p>
+             <div id="cores">
+                 <div class="color" id="black" onclick="blackTank()"></div>
+                 <div class="color" id="white" onclick="whiteTank()"></div>
+                 <div class="color" id="gray" onclick="grayTank()"></div>
+             </div>
+             <button id="botao">ADICIONAR AO CARRINHO</button>
+             <a href="#">CLIQUE AQUI PARA VER MAIS DETALHES</a>
+         </div>
+
+
+    </main>
+
+    <script src="JS/script.JS"></script>
+</body>
+</html>

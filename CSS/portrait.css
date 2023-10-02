@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.card {
+    width: 450px;
+    margin: 10px 0px 10px 20px;
+}
